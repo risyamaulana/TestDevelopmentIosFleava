@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="tWM-Ru-p25">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="awareness_logo" translatesAutoresizingMaskIntoConstraints="NO" id="N22-bv-i5j">
+                                <rect key="frame" x="0.0" y="293" width="414" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="6ll-Cb-25L"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tWM-Ru-p25" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="AGE-hk-cD8"/>
+                            <constraint firstItem="N22-bv-i5j" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AcA-nq-zag"/>
+                            <constraint firstItem="tWM-Ru-p25" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WnD-jm-8mN"/>
+                            <constraint firstItem="tWM-Ru-p25" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Z6s-Za-ogr"/>
+                            <constraint firstItem="tWM-Ru-p25" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="abg-NC-oMi"/>
+                            <constraint firstItem="N22-bv-i5j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oCz-ML-eXq"/>
+                            <constraint firstItem="N22-bv-i5j" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tGH-Oa-uXQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49.275362318840585" y="373.36956521739131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="awareness_logo" width="435" height="330"/>
+        <image name="bg" width="1125" height="2001"/>
+    </resources>
+</document>
